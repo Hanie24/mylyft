@@ -1,59 +1,246 @@
 body {
 	margin: 0%;
 	padding: 0%;
+	background: linear-gradient(#76278F, #2B1E66);
+	font-family: 'Montserrat', sans-serif;
 }
+
+/* clases reutilizables */
+
+.uppercase{
+	text-transform: uppercase;
+}
+
+.capitalize{
+	text-transform: capitalize;
+}
+
+.subtitle{
+	font-size: 180%;
+}
+
+.gray{
+	color: #728099;
+}
+/* section header */
+
 header {
 	width: 100%;
-	height: 8%;
-	background: orange;
+	position: fixed;
+}
+
+/* .lyft1{
+	display: inline-block;
+} */
+
+/* .logo-white{
+	width: 30%;
+	height: 10%;
+} */
+
+.nav{
 	position: absolute;
+	right: 10%;
+	padding-top: 2%;
+	font-size: 150%;
+	
 }
-main {
-	width: 100%;
-	height: 33%;
+
+.main{
+	text-decoration: none;
+	padding-right: 5%;
 }
+
+/* #cover{
+	background-image: url("../assets/images/hero.gif");
+	background-size: cover;
+} */
+
+/* formulario */
+.form{
+	background-color: #ffffff;
+	width: 40%;
+	position: absolute;
+	right: 0%;
+    top: 10%;/
+}
+
+.form-cover{
+	padding-left: 15%;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+h1{
+	width: 80%;
+	color: #352384;
+	font-size: 230%;
+	margin: 0%; 	
+}
+
+.textp{
+	margin: 0;
+	color: #728099;
+	font-size: 90%;
+	display: block;
+}
+
+.number-phone{
+	margin: 20px 0px 20px 0px;
+    border: 0px;
+    border-bottom: 1px solid black;
+	font-size: 20px;
+	display: block;
+} 
+
+.button{
+	background-color: #FF00BF;
+	color: #ffffff;
+	border-radius: 10px;
+    font-size: 90%;
+    border: 0px;
+    padding: 5%;
+    display: inline-block;
+	width: 45%;
+}
+
+.sign{
+	padding-left: 4%;
+}
+
+.link{
+	font-size: 60%;
+	padding-top: 2%;
+}
+
+/* section About */
+
 .about {
 	width: 100%;
 	height: 140%;
-	background: #5c2381;
 	color: #ffffff;
+	padding-top: 50%;
+	display: inline-block;  
+} 
+
+.phone{
+	width: 40%;
+	height: 60%;
 	position: absolute;
+	right: 10%;
+    top: 85%;
 }
-article {
-	width: 100%;
-	height: 41%;
+
+.information {
+	width: 34%;
+	padding-left: 10%;
+}
+
+/* section the article */
+
+.article {
+	width: 30%;
+	height: 50%;
 	background: #ffffff;
+	padding-left: 5%;
+	padding-top: 5%;
+
 }
-.learn-more {
+
+.p-article{
+	width: 76%;
+}
+
+/* .video{
+	width: 60%;
+	
+}
+
+.container-video{
+	width: 60%;
+	height: 50%;
+	display: inline-block;
+} */
+
+.more{
+	background-color: #ffffff;
 	width: 100%;
-	height: 41%;
-	background: blue;
+	padding-top: 5%;
+	padding-bottom: 8%;
+	padding-left: 5%;
 }
+
+.columns{
+	display: inline-block;
+	width: 40%;
+	padding-left: 5%;
+}
+
+/* other input */
+
 .city {
 	width: 100%;
-	height: 44%;
-	background: purple;
+	height: auto;
 }
+
+.img-city{
+	width: 25%;
+	height: 50%;
+	padding-left: 10%;
+	position: relative;
+	top: 10%;
+}
+
+.columns2{
+	display: inline-block;
+	width: 40%;
+	padding-left: 15%;
+	position: absolute;
+	padding-top: 10%;
+}
+
+/* fotter */
+
 footer {
 	width: 100%;
-	height: 44%;
-    background: #333447;
+	background: #333447;
+	padding-left: 5%;
 }
-.about > .phone {
-	position: relative;
-	float: right;
-	width: 40%;
-	height: 50%;
+
+.options{
+	width: 20%;		
+	display: inline-block;
+	color: #ffffff;
 }
-/*.menu > .logo {
-	width: 5%;
-	height: 5%;
-}*/
-.about > .information {
+
+.img-footer{
+	width: 30%;
+	display: inline-block;
 	position: absolute;
-	margin: 12%;
+	padding-top: 5%;
+	padding-left: 5%;
 }
-.title{
-	font-family: 'Montserrat', sans-serif; 
+
+.logo{
+	width: 50%;
+	height: 30%;
+	display: block;
+	padding-top: 4%;
 }
-/*.paragraph*/
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: inherit;
+	color: #728099; 
+}
+
+a:hover{
+	color: #FF00BF;
+}
+
+
+
+
